@@ -7,23 +7,29 @@ We are going to start simple and get Hexo working locally first.
 
 1. We are going to need `npm`, the NodeJS package manger. If you are on Mac or
    Linux you can check if you already have it installed by running:
+
    ```
    > which npm
    >
    ```
+   
    If you don't get anything back then it isn't installed. To get it we will
    need to install NodeJS and then `npm`. Mac and Windows users can use the
    [installers provided by NodeJS](https://nodejs.org/en/download/). Linux
    users can run:
+   
    ```
    > sudo apt-get update
    > sudo apt-get install nodejs
    > sudo apt-get install npm
    ```
+   
 2. Install hexo.
+
    ```
    > npm install hexo-cli -g
    ```
+   
 3. Build a site with a "page" and a "post".
 
 ## Task 2: remote ##
