@@ -2,60 +2,30 @@
 This projects is intended to be the "Hello, World!" of [Hexo](https://hexo.io/)
 on [Heroku](https://www.heroku.com/)
 
-## Task 1: Install Hexo ##
-We are going to start simple and get Hexo working locally first.
+## Task 0: Install Hexo ##
+If you haven't already you will need to install Hexo. Hexo has some [good
+documentation](https://hexo.io/docs/index.html) on how to do this.
 
-1. We are going to need `npm`, the NodeJS package manger. If you are on Mac or
-   Linux you can check if you already have it installed by running:
+## Task 1: Run a basic website locally ##
+Now that you have Hexo installed, use it to build a basic website and run it
+locally. Our only requirements at the moment are that your site should have a
+"page" and a "post". We will make it a bit more complicated  in the next step.
+Digital Ocean has a [nice tutorial](https://www.digitalocean.com/community/tutorials/how-to-create-a-blog-with-hexo-on-ubuntu-14-04)
+on how you might do this (the relevant stuff stops after step 4).
 
-   ```
-   > which npm
-   >
-   ```
+## Task 2: Make it fancy ##
+Add a [Hexo theme](https://hexo.io/themes/) to your website. You __don't__ need
+to write one yourself, just pick one of the many available.
 
-   If you don't get anything back then it isn't installed. To get it we will
-   need to install NodeJS and then `npm`. Mac and Windows users can use the
-   [installers provided by NodeJS](https://nodejs.org/en/download/). Linux
-   users can run:
+## Task 3: Make it __super__ fancy ##
+Add a YouTube video using
+[Hexo's tag plugins](https://hexo.io/docs/tag-plugins.html#YouTube).
 
-   ```
-   > sudo apt-get update
-   > sudo apt-get install nodejs
-   > sudo apt-get install npm
-   ```
+## Task 4: deploy ##
+Now that we have something that works locally, let's put it on Heroku.
+You will need to setup a config file to get this working. Fortunately [Hexo has
+documentation on exactly how to deploy to Heroku](https://hexo.io/docs/deployment.html).
 
-2. Install hexo.
-
-   ```
-   > npm install hexo-cli -g
-   ```
-
-## Task 2: local ##
-### The basic website ###
-   Now that you have Hexo installed, use it to build a basic website. Our only
-   requirements at the moment are that your site should have a "page" and a
-   "post". We will make it a bit more complicated later. Digitial Ocean has a
-   [nice tutorial](https://www.digitalocean.com/community/tutorials/how-to-create-a-blog-with-hexo-on-ubuntu-14-04)
-   on how you might do this (the relevant stuff starts at
-   `hexo init ~/hexo_blog` midway through step 1 and stops after step 4).
-
-### The fancy website ###
-   In progress.
-
-
-
-## Task 3: remote ##
-Now that we have something that works locally, let's try to put it on Heroku.
-
-1. [Deploy](https://hexo.io/docs/deployment.html#Heroku)
-
-## Task 4: custom theme ##
-
-put a [Hexo](https://hexo.io/) site up on [Heroku](https://www.heroku.com/)
-site should have a "page" and a "post"
-use a custom theme (maybe https://github.com/cgmartin/hexo-theme-bootstrap-blog)
-(maybe) include a data file and loop through it to generate content
-https://www.sitepoint.com/10-example-json-files/
-https://github.com/jdorfman/awesome-json-datasets
-https://api.github.com/emojis
-(maybe) one or more additional requirements to exercise hexo functionality?
+## Submitting ##
+- Make sure your code is up-to-date on GitHub.
+- Add your Heroku website url to your repo's description.
