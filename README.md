@@ -1,4 +1,6 @@
 # Module1 small project #
+__Submitted by:__ username@umn.edu
+
 This projects is intended to be the "Hello, World!" of [Hexo](https://hexo.io/)
 on [Heroku](https://www.heroku.com/)
 
@@ -29,3 +31,4 @@ documentation on exactly how to deploy to Heroku](https://hexo.io/docs/deploymen
 ## Submitting ##
 - Make sure your code is up-to-date on GitHub.
 - Add your Heroku website url to your repo's description.
+- Add your email to the top of this `README`
